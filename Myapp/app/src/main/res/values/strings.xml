@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Myapp4</string>
+    <string name="please_input">"请输入摄氏度"</string>
+    <string name="btn_text1">"转换为华氏度"</string>
+    <string name="millie_name">"Millie Bobby Brown"</string>
+    <string name="score3">+3 points</string>
+    <string name="score2">+2 points</string>
+    <string name="score1">+1 point</string>
+    <string name="input_rmb">Input RMB</string>
+    <string name="dollor_txt">dollor</string>
+    <string name="euro_txt">euro</string>
+    <string name="won_txt">won</string>
+    <string name="config_txt">config</string>
+    <string name="btn_reset">Reset</string>
+    <string name="teamA_name">TeamA</string>
+    <string name="input_new_dollor_rate">Input new dollor rate</string>
+    <string name="input_new_euro_rate">Input new euro rate</string>
+    <string name="input_new_won_rate">Input new won rate</string>
+    <string name="btn_rate_submit">submit</string>
+    <string name="get_rate_from_internet">get rate from Internet</string>
+    <string name="show_rate_from_internet">show rate from Internet</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RatecgActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_dol_rate"
+        android:layout_marginTop="36dp"
+        android:textSize="24sp"
+        android:hint="@string/input_new_dollor_rate"
+        android:inputType="numberDecimal"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_euro_rate"
+        android:layout_marginTop="24dp"
+        android:textSize="24sp"
+        android:hint="@string/input_new_euro_rate"
+        android:inputType="numberDecimal"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/new_won_rate"
+        android:layout_marginTop="24dp"
+        android:textSize="24sp"
+        android:hint="@string/input_new_won_rate"
+        android:inputType="numberDecimal"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/rate_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:onClick="rateSubmit"
+        android:text="@string/btn_rate_submit"
+        android:textSize="24sp" />
+
+</LinearLayout>

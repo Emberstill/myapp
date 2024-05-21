@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RateActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rmb"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:inputType="numberDecimal"
+        android:gravity="center"
+        android:hint="@string/input_rmb"
+        android:autofillHints="Input rmb number" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/targmoney"
+        android:layout_marginTop="25dp"
+        android:hint="Hello"
+        android:gravity="center"
+        android:textSize="32sp"/>
+
+    <Button
+        android:id="@+id/dollor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:onClick="rateConvert"
+        android:text="@string/dollor_txt"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/euro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:onClick="rateConvert"
+        android:text="@string/euro_txt"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/yen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:onClick="rateConvert"
+        android:text="@string/won_txt"
+        android:textAllCaps="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/config"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:onClick="config"
+        android:text="@string/config_txt"
+        android:textAllCaps="true"/>
+
+</LinearLayout>
